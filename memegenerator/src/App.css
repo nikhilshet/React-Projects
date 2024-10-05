@@ -1,0 +1,133 @@
+.App {
+  text-align: center;
+ 
+}
+.body{
+
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.outerBox{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.innerBox{
+  height: 600px;
+  width: 500px;
+  background-color: #282c34;
+  
+}
+
+.header{
+  margin: 0px;
+  width: 100%;
+  height: 100px;
+  background-color: rgb(108, 175, 235);
+  display: flex;
+  align-items: center;
+}
+
+.logo{
+  margin-left: 20px;
+  width: 120px;
+  height: 100px;
+}
+
+.title{
+  font-family: "Poppins", sans-serif;
+  color: white;
+  font-style: normal;
+  margin-left: auto;
+  margin-right: 20px;
+}
+
+.inpBox{
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.inp{  
+  font-family: "Poppins", sans-serif;
+  width: 200px;
+  height: 35px;
+  border-radius: 10px;
+  border: none;
+  text-indent: 10px;
+  background-color: rgb(255, 255, 255);
+  font-size: medium;
+}
+
+.btn{
+  margin: 10px;
+  width: 480px;
+  height: 35px;
+  border-radius: 10px;
+  font-size: medium;
+  font-family: "Poppins", sans-serif;
+  background-color: rgb(108, 175, 235);
+  border: none;
+}
+.imageBox{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.meme-image{
+  width: 350px;
+  height: 350px;
+}
+
+.meme-text{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  position: absolute;
+  font-size: 2rem;
+  color: white;
+  -webkit-text-stroke: 1px rgb(0, 0, 0); 
+}
+
+.top{
+  
+  top: 0;
+}
+
+.bottom{
+  bottom: 0;
+}
